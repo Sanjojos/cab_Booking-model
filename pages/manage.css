@@ -1,0 +1,18 @@
+.container-fluid {
+  padding-top: 20px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.card {
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#my-nav {
+  margin-bottom: 20px;
+}
