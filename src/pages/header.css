@@ -1,0 +1,46 @@
+/* .header{
+   height: 30vw; 
+   margin: 99px auto;
+   background-image: url("homeBG.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   position:relative;
+   border-radius: 10px;
+   width: 1500px;
+   right: 105px;
+   
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 5%;
+    left: 6vw;
+    color: white;
+    animation: fadeIn 5s;
+}
+.header-contents h1{
+    font-weight: 500;
+    font-size: max(4.5vw,22px);
+}
+/* @media (min-width:700px) {
+    #head{
+        position: relative;
+        right:485px ;
+    }
+}
+@media (min-width:1000px) {
+    #head{
+        position: relative;
+        right:485px ;
+    }
+ }
+ @media (min-width: 2000px) { 
+    #head{
+        position: relative;
+        right:485px ;
+    }
+  } */ 

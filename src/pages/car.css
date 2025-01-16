@@ -1,0 +1,100 @@
+/* #book{
+    width: 90%;
+    height:30%;
+   
+   
+}
+#booki{
+    width: 90%;
+    height:30%;
+    
+   
+}
+#bookn{
+    width: 90%;
+   
+   
+   
+}
+#bookg{
+    width: 90%;
+    height:50%;
+    margin-bottom: -390px;
+   
+}
+#bookin{
+    width: 90%;
+    height:50%;
+   
+   
+}
+#flex{
+    display: flex;
+    flex-direction: row; */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:150vh;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.contact-section .contact-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 100%; /* Ensure contact-left doesn't overflow */
+}
+
+.contact-section .contact-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-section .contact-right {
+  flex: 1;
+  padding: 0 20px;
+  max-height: 100%; /* Ensure contact-right doesn't overflow */
+  overflow-y: auto; /* Enable scrolling for content overflow */
+}
+
+.btn1 {
+  margin-top: 20px;
+}
+
+.line-separator {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 10px;
+  }
+
+  .contact-section .contact-right {
+    padding: 10px;
+    text-align: center;
+    overflow-y: unset; /* Disable overflow on smaller screens */
+  }
+}
+#im{
+  filter: drop-shadow(1px 1px 20px orange);
+}
