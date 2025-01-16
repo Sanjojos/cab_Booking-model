@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    background:black
+   
+}
+.navbar-nav{
+    display: flex;
+  
+    margin-right: 40px;
+    list-style-type: none;
+   
+ 
+}
+.active:hover{
+background-color:rgb(104, 109, 118);
+border-radius: 30px;
+}
+.active
+{
+    /* padding:10px; */
+    /* padding-bottom: 2px; */
+    border-bottom: 2px white;
+    gap: 50px;
+   
+
+   
+}
+.search{
+    border-radius: 10px;
+}
+.btn btn-outline-light bg-primary{
+    width: 100px;
+}
+
+/* a.Nav-item:active, a:hover {
+    outline: 0;
+    text-decoration: underline !important;
+} */
