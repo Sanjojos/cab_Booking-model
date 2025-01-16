@@ -30,7 +30,8 @@ function Reg() {
       return;
     }
 
-    axios.post("http://127.0.0.1:8000/reg/", data)
+  axios.post(`${process.env.REACT_APP_API_URL}`, data)
+
       .then((response) => {
         console.log(response.data);
         localStorage.setItem('registeredUser', JSON.stringify(data));
